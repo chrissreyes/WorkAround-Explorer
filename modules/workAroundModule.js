@@ -24,7 +24,7 @@ const getSalaryAtCompany = (role, company) => {
 }
 
 // Replace the empty array with the appropriate imported function/value
-const getIndustryAverageSalary = (salaryData) => {
+const getIndustryAverageSalary = () => {
   const allSalaries = salaryData.map(obj => obj.salary);
   return calculateAverage(allSalaries);
 }
